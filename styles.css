@@ -37,11 +37,11 @@ h2{
 
 p{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 nav{
-    background-color: var(--white);
+    background-color: var(--black);
     padding: 2rem 0;
     display: flex;
     justify-content: right;
@@ -59,13 +59,13 @@ nav a{
     text-decoration: none;
     margin: 0 2rem;
     font-family: spicyRice;
-    color: var(--black);
+    color: var(--red);
     
 }
 
 section{
     margin: 4rem 0;
-    padding: 0 2rem;
+    padding: 0 4rem;
 }
 
 footer{
@@ -149,6 +149,7 @@ ul{
 #gira_section{
     height: 600px;
     position: relative;
+    padding: 0;
 }
 
 /* 
