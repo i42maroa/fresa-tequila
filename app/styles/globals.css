@@ -1,0 +1,58 @@
+@import url("variables.css");
+
+@font-face {
+    font-family: spicyRice;
+    src: url(./fonts/SpicyRice-Regular.ttf);
+}
+
+
+*{
+    margin: 0;
+   padding: 0;
+
+}
+
+body{
+    background-color: var(--red);
+    color: var(--black);
+    
+    
+}
+
+h1, h2, h3, h4{
+    font-family: spicyRice;
+    color: var(--black);
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 32px;
+}
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+section{
+    margin: 4rem 0;
+    padding: 0 4rem;
+}
+
+footer{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+ul{
+    list-style:none;
+}
+
+
+@media (max-width: 500px) {
+
+    section{
+        padding: 0 1rem;
+    }
+
+}
