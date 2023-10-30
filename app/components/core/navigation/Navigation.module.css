@@ -18,5 +18,21 @@
     margin: 0 2rem;
     font-family: spicyRice;
     color: var(--red);
-    
+
+}
+
+
+
+
+@media (max-width: 1000px) {
+
+    .nav_container{
+        display: none;
+    }
+
+    .headerContainer{
+        padding: 1rem 0;
+        height: 3rem;
+    }
+
 }
