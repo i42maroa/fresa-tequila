@@ -8,8 +8,8 @@
     position: relative;
     display: flex;
     margin: 3rem auto;
-    height: 30rem;
-    width: 30rem;
+    height: 50rem;
+    width: 100%;
 }
 
 .text{
@@ -40,6 +40,14 @@
 .button:hover{
     background-color: var(--white);
     color: var(--red);
+}
+
+@media (max-width: 1000px) {
+
+    .fansContainerImage{
+        height: 30rem;
+        width: 100%;
+    }
 }
 
 @media (max-width: 500px) {
