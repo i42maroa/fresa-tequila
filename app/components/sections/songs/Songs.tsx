@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styles from './Songs.module.css'
 
 export function SongsSection () {
@@ -8,19 +9,22 @@ export function SongsSection () {
 
 <div className={styles.song_container}>
     <h3>Somos Fresa Tequila</h3>
-    <p>En un rincón de la ciudad, donde el sol siempre brilla en alta mar. Un grupo nació con mucho sabor, Fresa Tequila, es su nombre, sin igual.</p>
-    <p>Fresa Tequila, dulce como el sol, Bebida y fruta, nuestra inspiración. Baila con nosotros, no te quedes atrás, esta fiesta no se va a terminar.</p>
-    <p>Guitarra y voz, nuestra pasión. Los corazones latiendo en esta canción. La noche se enciende, el ritmo en la piel, Fresa Tequila, te hace sentir tan bien.</p>
-    <p>Fresa Tequila, dulce como el sol, Bebida y fruta, nuestra inspiración. Baila con nosotros, no te quedes atrás, esta fiesta no se va a terminar.</p>
-    <p>Somos la fiesta, somos la diversión. La mezcla perfecta, la unión de corazón. Fresa Tequila, somos la razón, para celebrar la vida, sin condición.</p>
-    <p>La música nos lleva a un lugar, donde todos juntos podemos brillar, Fresa Tequila, en cada nota y acorde. La magia que nos une, el lazo que nos recuerda.</p>
-    <p>Fresa Tequila, dulce como el sol, bebida y fruta, nuestra inspiración, Baila con nosotros, no te quedes atrás, Esta fiesta no se va a terminar.</p>
-    <p>Así que únete a la fiesta, ven a disfrutar, Con Fresa Tequila, no hay nada igual. La música, la amistad, y el amor en la piel, Fresa Tequila, siempre te hará sentir.</p>
-</div>
+    <div className={`${styles.textContainer} ${styles.nota}`}>
+        <p>En un rincón de la ciudad, donde el sol siempre brilla en alta mar. Un grupo nació con mucho sabor, Fresa Tequila, es su nombre, sin igual.</p>
+        <p>Fresa Tequila, dulce como el sol, Bebida y fruta, nuestra inspiración. Baila con nosotros, no te quedes atrás, esta fiesta no se va a terminar.</p>
+        <p>Guitarra y voz, nuestra pasión. Los corazones latiendo en esta canción. La noche se enciende, el ritmo en la piel, Fresa Tequila, te hace sentir tan bien.</p>
+        <p>Fresa Tequila, dulce como el sol, Bebida y fruta, nuestra inspiración. Baila con nosotros, no te quedes atrás, esta fiesta no se va a terminar.</p>
+        <p>Somos la fiesta, somos la diversión. La mezcla perfecta, la unión de corazón. Fresa Tequila, somos la razón, para celebrar la vida, sin condición.</p>
+        <p>La música nos lleva a un lugar, donde todos juntos podemos brillar, Fresa Tequila, en cada nota y acorde. La magia que nos une, el lazo que nos recuerda.</p>
+        <p>Fresa Tequila, dulce como el sol, bebida y fruta, nuestra inspiración, Baila con nosotros, no te quedes atrás, Esta fiesta no se va a terminar.</p>
+        <p>Así que únete a la fiesta, ven a disfrutar, Con Fresa Tequila, no hay nada igual. La música, la amistad, y el amor en la piel, Fresa Tequila, siempre te hará sentir.</p>
+    </div>
+   </div>
 
 
 <div className={styles.song_container}>
     <h3>Bajo el Sol de Verano</h3>
+    <div className={`${styles.textContainer} ${styles.pentagram}`}>
     <p>Bajo el sol de verano, el mundo es un sueño,
         Las risas y secretos, juntos, somos dueños.
         En la playa de arena, al atardecer brillante,
@@ -49,6 +53,7 @@ export function SongsSection () {
         Fresa Tequila, somos jóvenes y valientes.
         Este amor, esta canción, nunca morirá,
         Fresa Tequila, siempre, siempre serás la razón por la que cantamos.</p>
+</div>
 </div>
         </section>
     )}
