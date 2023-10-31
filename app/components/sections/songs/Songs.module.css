@@ -2,10 +2,12 @@
 
 .song_container{
     display: flex;
+    position: relative;
     flex-direction: column;
     margin: 2rem 0;
     background-color: var(--white);
     padding: 2rem 3rem;
+    
 }
 
 .song_container h3{
@@ -14,4 +16,36 @@
 
 .song_container p{
     margin: 0.5rem 0;
+}
+
+.textContainer{
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 1rem 0;
+}
+
+.textContainer p{
+    font-style: italic;
+    margin: 1rem 0;
+}
+
+.nota{
+    background-image: url("/images/nota.svg");
+    background-size: 20rem;
+}
+
+.pentagram{
+    background-image: url("/images/pentagrama.svg");
+    background-size: 12rem;
+}
+
+@media (max-width: 500px) {
+
+    .song_container{
+        padding: 1rem 1.5rem;
+    }
+
+    .textContainer{
+        margin: 0;
+    }
 }

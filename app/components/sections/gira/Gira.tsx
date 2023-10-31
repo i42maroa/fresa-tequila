@@ -8,10 +8,10 @@ export function GiraSection(){
 <div className={styles.bg_text}>
     <h2>Nuestra gira</h2>
     <ul className={styles.list_gira}>
-        <li><p>Córdoba - 20 Diciembre</p></li>
-        <li><p>Huelva - 20 Diciembre</p></li>
-        <li><p>Sevilla - 20 Diciembre</p></li>
-        <li><p>Málaga - 20 Diciembre</p></li>
+        <li><p>Córdoba - 26 Diciembre</p></li>
+        <li><p>Huelva - 10 Enero</p></li>
+        <li><p>Sevilla - 20 Enero</p></li>
+        <li><p>Málaga - 2 Febrero</p></li>
     </ul>
 </div>
         </section>

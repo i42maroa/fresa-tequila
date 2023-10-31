@@ -1,8 +1,18 @@
 
 
 .logo_container{
-    height: 100vh;
+    height: 30rem;
+    width: 100%;
     display: flex;
     margin: 5rem auto 0 auto;
     position: relative;
+}
+
+
+@media (max-width: 500px) {
+
+    .logo_container{
+        height: 20rem;
+        width: 100%;
+    }
 }
