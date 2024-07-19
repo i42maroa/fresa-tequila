@@ -3,7 +3,7 @@
     padding: 2rem 0;
     display: flex;
     justify-content: right;
-    position: fixed;
+    position: sticky;
     width: 100%;
     height: 5rem;
     top: 0;

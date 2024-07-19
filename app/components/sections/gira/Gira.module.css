@@ -9,7 +9,7 @@
 
 .bg_text{
     background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
     color: var(--white);
     font-weight: bold;
     border: 3px solid var(--red);
@@ -38,4 +38,23 @@
     height: 600px;
     position: relative;
     padding: 0;
+}
+
+.button{
+    display: flex;
+    padding: 0.5rem 1rem;
+    margin: 2rem auto;
+    border: 2px var(--white) solid;
+    background-color: transparent;
+    color: var(--white);
+    cursor: pointer;
+    font-size: 25px;
+    width: fit-content;
+    text-decoration: none; 
+}
+
+.button:hover{
+    background-color: var(--white);
+    color: var(--red);
+    transition: all .2s ease-in-out;
 }

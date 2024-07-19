@@ -1,0 +1,10 @@
+.container{
+    fill: var(--white);
+    width: 24px;
+}
+
+@media (max-width: 500px) {
+    .container{
+        width: 24px;
+    }
+}

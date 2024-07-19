@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from './Gira.module.css'
 
 export function GiraSection(){
@@ -11,7 +12,7 @@ export function GiraSection(){
         <li><p>Barbate - 19 Agosto</p></li>
     </ul>
 
-    <button>Hazte con tu entrada</button>
+    <Link href='https://www.instagram.com/fresa.tequila/'target="_blank" className={styles.button}>Hazte con tu entrada</Link>
 </div>
         </section>
     )
