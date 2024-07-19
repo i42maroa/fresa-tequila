@@ -3,6 +3,7 @@ import { WeSection } from './components/sections/we/we'
 import { SongsSection } from './components/sections/songs/Songs'
 import { GiraSection } from './components/sections/gira/Gira'
 import { FansSection } from './components/sections/fans/Fans'
+import { MerchandaisingSection } from './components/sections/merchandaising/Merchandaising'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <WeSection></WeSection>
       <SongsSection></SongsSection>
       <GiraSection></GiraSection>
+      <MerchandaisingSection></MerchandaisingSection>
       <FansSection></FansSection>
     </main>
   )

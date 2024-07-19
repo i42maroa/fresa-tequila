@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: var(--inverse-font-color);
+    border-top: 3px solid var(--hard-brown);
+    overflow: hidden;
+    cursor:grab;
+}
+.carrousel{
+    position: relative;
+
+}
+
+.image{
+    height: 400px;
+}
+

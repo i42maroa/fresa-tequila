@@ -1,0 +1,27 @@
+.swiperContainer{
+   margin: 2rem auto;
+   width: 400px;
+   height: 400px;
+
+}
+
+@media (max-width: 500px) {
+    .swiperContainer{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    .swiperContainer{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 300px) {
+    .swiperContainer{
+        width: 200px;
+        height: 200px;
+    }
+}
