@@ -8,12 +8,23 @@
     overflow: hidden;
     cursor:grab;
 }
-.carrousel{
-    position: relative;
 
+.carrousel{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+}
+
+.carrousel h3, .carrousel h4{
+    padding: 0.5rem;
 }
 
 .image{
     height: 400px;
 }
 
+.imageContainer{
+    position: relative;
+    height: 100%;
+    margin: 0.5rem;
+}

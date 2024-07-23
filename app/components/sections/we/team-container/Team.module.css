@@ -1,0 +1,16 @@
+.membersContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.member{
+    
+   display: flex;
+   flex-direction: column;
+   margin: 1rem;
+}
+
+.memberImage{
+    position: relative;
+    height: 200px;
+}

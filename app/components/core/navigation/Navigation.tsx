@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from './Navigation.module.css'
 import Link from "next/link";
 import { useState } from "react";
+import { MenuButton } from "../buttons/menu-button/MenuButton";
 
 
 export function Navigation () {
@@ -18,7 +19,10 @@ export function Navigation () {
                 <Image src="./images/fresa-tequila-text.svg" alt="logo" fill sizes='10vh'/>
             </div>
 
-            <button className={styles.buttonOpenMenu} onClick={() => pressOpenMenuButton()}>o</button>
+
+            <button className={styles.buttonOpenMenu} onClick={() => pressOpenMenuButton()}>
+                <MenuButton stateValue={showNav} /></button>
+
             
             <div className={styles.nav_container}>
              <Link className={styles.navigationElement} href='/'>Noticias</Link>
@@ -30,11 +34,14 @@ export function Navigation () {
 
 
             {showNav &&  <div className={styles.navContainerMovil}>
+                <div className={styles.navContainerMovilList}>
                 <Link className={styles.navigationElementMovil} href='/' onClick={() => pressOpenMenuButton()}>Noticias</Link>
                 <Link className={styles.navigationElementMovil} href='/songs' onClick={() => pressOpenMenuButton()}>Temazos</Link>
                 <Link className={styles.navigationElementMovil} href='/store' onClick={() => pressOpenMenuButton()}>Tienda</Link>
                 <Link className={styles.navigationElementMovil} href='/club' onClick={() => pressOpenMenuButton()}>Club</Link>
-                <Link className={styles.navigationElementMovil} href='/about' onClick={() => pressOpenMenuButton()}>Nosotros</Link>   
+                <Link className={styles.navigationElementMovil} href='/about' onClick={() => pressOpenMenuButton()}>Nosotros</Link>  
+                </div>
+                 
             </div>}
         </header>
     )

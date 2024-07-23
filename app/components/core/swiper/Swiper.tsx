@@ -22,13 +22,29 @@ export function SwiperComponent () {
             }}
           >
             <SwiperSlide className={styles.carrousel}>
+            <h3>Fresiluche</h3>
+              <h4>14.99€</h4>
+              <div className={styles.imageContainer}>
                 <Image className={styles.image} src="/images/merchandaising/peluche.jpeg" alt="peluche" fill sizes='500vh' />
+                
+              </div>
+                
             </SwiperSlide>
             <SwiperSlide className={styles.carrousel}>
+            <h3>FresiTaz</h3>
+            <h4>9.99€</h4>
+            <div className={styles.imageContainer}>
               <Image className={styles.image} src="/images/merchandaising/taza.jpeg" alt="taza" fill sizes='500vh' />
+              
+              </div>
             </SwiperSlide>
             <SwiperSlide className={styles.carrousel}>
+            <h3>Fresialbornoz</h3>
+            <h4>20.99€</h4>
+            <div className={styles.imageContainer}>
               <Image className={styles.image} src="/images/merchandaising/toalla.jpeg" alt="toalla" fill sizes='500vh' />
+              
+              </div>
             </SwiperSlide>
           </Swiper> 
        

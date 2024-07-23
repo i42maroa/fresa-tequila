@@ -6,8 +6,11 @@
     position: sticky;
     width: 100%;
     top: 0;
-    z-index: 10;
-   
+    z-index: 10; 
+}
+
+.nav_container{
+    margin: auto;
 }
 
 .navigationElement, .navigationElementMovil{
@@ -17,13 +20,12 @@
     text-decoration: none;
     margin: 0 2rem;
     font-family: spicyRice;
-    color: var(--red);
-
+    color: var(--white);
 }
 
 .logo_container{
     position: relative;
-    height: 100px;
+    height: 75px;
     width: 300px ;
 }
 
@@ -32,19 +34,35 @@
 }
 
 .navContainerMovil{
-    display: flex;
-    flex-direction: column;
+    
     position: absolute;
-    top: 50px;
+    top: 80px;
+    height: 100svh;
     width: 100%;
-    background-color: green;
+    background: rgba(9, 9, 9, .9)
 }
 
 .navigationElementMovil{
     margin: 10px 2rem;
 }
 
+.navContainerMovilList{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonOpenMenu{
+    background-color: transparent;
+    border: none;
+    display: none;
+    position: relative;
+}
+
 @media (max-width: 1000px) {
+
+    .logo_container{
+        height: 50px;
+    }
 
     .nav_container{
         display: none;
