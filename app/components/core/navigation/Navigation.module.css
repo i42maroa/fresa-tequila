@@ -1,6 +1,5 @@
 .headerContainer{
     background-color: var(--black);
-    padding: 1rem 0;
     display: flex;
     justify-content: space-around;
     position: sticky;
@@ -19,14 +18,14 @@
     cursor: pointer;
     text-decoration: none;
     margin: 0 2rem;
-    font-family: spicyRice;
     color: var(--white);
 }
 
 .logo_container{
     position: relative;
     height: 75px;
-    width: 300px ;
+    width: 300px;
+    margin: 0 2rem;
 }
 
 .openMenu{
@@ -34,7 +33,6 @@
 }
 
 .navContainerMovil{
-    
     position: absolute;
     top: 80px;
     height: 100svh;
@@ -56,9 +54,14 @@
     border: none;
     display: none;
     position: relative;
+    cursor: pointer;
 }
 
 @media (max-width: 1000px) {
+
+    .headerContainer{
+        padding: 1rem 0;
+    }
 
     .logo_container{
         height: 50px;

@@ -13,9 +13,9 @@ import { EffectCards, Pagination } from 'swiper/modules';
 
 export function NewContainer ({value}:{value:NewInterface}) {
     return (
-        <section className={styles.container}>
+        <div className={styles.container}>
             <div className={styles.textContainer}>
-                <h3>{value.title}</h3>
+                <h3 className={styles.title}>{value.title}</h3>
                 <p>{value.description}</p>
             </div>  
                         <Swiper                         
@@ -32,5 +32,5 @@ export function NewContainer ({value}:{value:NewInterface}) {
                                 </SwiperSlide>)
                             }
                         </Swiper>           
-        </section>)
+        </div>)
     }

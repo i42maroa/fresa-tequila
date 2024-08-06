@@ -1,6 +1,6 @@
 .membersContainer{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .member{
@@ -13,4 +13,18 @@
 .memberImage{
     position: relative;
     height: 200px;
+}
+
+@media (max-width: 1000px) {
+    .membersContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+@media (max-width: 500px) {
+    .membersContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }

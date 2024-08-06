@@ -1,15 +1,20 @@
 @import url("variables.css");
 
 @font-face {
-    font-family: spicyRice;
-    src: url(./fonts/SpicyRice-Regular.ttf);
+    font-family: LatoBold;
+    src: url(./fonts/Lato/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: LatoRegular;
+    src: url(./fonts/Lato/Lato-Regular.ttf);
 }
 
 
 *{
     margin: 0;
    padding: 0;
-
+   font-family: LatoRegular;
 }
 
 body{
@@ -20,9 +25,9 @@ body{
 }
 
 h1, h2, h3, h4{
-    font-family: spicyRice;
+    font-family: LatoBold;
     color: var(--black);
-    text-transform: uppercase;
+    font-weight: 800;
 }
 
 h2{
@@ -30,7 +35,6 @@ h2{
 }
 
 p{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
 

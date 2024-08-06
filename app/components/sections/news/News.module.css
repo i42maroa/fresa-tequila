@@ -1,4 +1,31 @@
 .newsContainer{
     display: flex;
     flex-direction: column;
+    width: 1100px;
+    margin: 1.5rem auto;
+    background-color: var(--white);
+}
+
+@media (max-width:1200px) {
+    .newsContainer{
+        width:90%;
+    }
+}
+
+@media (max-width:1000px) {
+    .newsContainer{
+        width:95%;
+    }
+}
+
+@media (max-width:700px) {
+    .newsContainer{
+        width: 500px;
+    }
+}
+
+@media (max-width:500px) {
+    .newsContainer{
+        width: auto;
+    }
 }

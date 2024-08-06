@@ -11,13 +11,14 @@ export function TeamContainer(){
             <div className={styles.membersContainer}>
                 {   
                     MEMBERS.map(data => 
-                        <div  className={styles.member}>
+                        <div key={data.name}  className={styles.member}>
                              <div className={styles.memberImage}>
                              <Image  alt={data.name} src={data.url} fill sizes='500vh' /> 
                              </div>
                             
                             <h3>{data.name}</h3>
                             <h4>{data.puesto}</h4>
+                            <p>{data.description}</p>
                         </div>
                     )
                 }

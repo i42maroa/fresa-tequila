@@ -15,9 +15,9 @@ export function Navigation () {
     return (
         <header className={styles.headerContainer}>
 
-            <div className={styles.logo_container}>
+            <Link className={styles.logo_container}  href='/'>
                 <Image src="./images/fresa-tequila-text.svg" alt="logo" fill sizes='10vh'/>
-            </div>
+            </Link>
 
 
             <button className={styles.buttonOpenMenu} onClick={() => pressOpenMenuButton()}>
