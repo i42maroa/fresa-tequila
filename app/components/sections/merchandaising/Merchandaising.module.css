@@ -1,8 +1,27 @@
+.container{
+    background-color: var(--black);
+    margin: 0.2rem 0;
+    padding: 2rem 0;
+}
 .swiperContainer{
    margin: 2rem auto;
    width: 400px;
    height: 400px;
+}
 
+.productContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.title{
+    text-align: center;
+    color: var(--white);
+    margin: 1rem 0;
+    font-size: 40px;
 }
 
 @media (max-width: 500px) {

@@ -1,0 +1,44 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    margin: 1rem 0;
+    
+}
+.cardImage{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+}
+
+
+.cardContent{
+    text-align: center;
+}
+
+.name{
+    font-weight: 800;
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.prize{
+    font-weight: 100;
+}
+
+.tagContainer{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.tag{
+    background-color: var(--red);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+
+.name, .prize, .tag{
+    color: var(--white);
+}

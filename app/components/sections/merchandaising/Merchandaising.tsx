@@ -1,16 +1,23 @@
+import { PRODUCTS_LIST } from "@/app/data/products.data";
 import { SwiperComponent } from "../../core/swiper/Swiper";
 import styles from './Merchandaising.module.css'
+import { Product } from "./product/Product";
 
 export function MerchandaisingSection () {
     return (
-        <section>
-            <h2>Merchandaising</h2>
-
-            <p>Hazte con nuestro exclusivo merchandaising, solamente disponible para nuestros fans mas atrevidos.</p>
-
+        <section className={styles.container}>
+            <h1 className={styles.title}>Colección verano</h1>
+{/* 
             <div className={styles.swiperContainer}>
-                <SwiperComponent/>
-            </div>    
+                <SwiperComponent />
+            </div>     */}
+
+            <div className={styles.productContainer}>
+                {
+                    PRODUCTS_LIST.map((p, index) => <Product product={p} key={index}></Product>)
+                }
+
+            </div>
 
         </section>
     )
