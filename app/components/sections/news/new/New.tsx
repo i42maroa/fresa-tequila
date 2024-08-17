@@ -14,11 +14,7 @@ import { EffectCards, Pagination } from 'swiper/modules';
 export function NewContainer ({value}:{value:NewInterface}) {
     return (
         <div className={styles.container}>
-            <div className={styles.textContainer}>
-                <h3 className={styles.title}>{value.title}</h3>
-                <p>{value.description}</p>
-            </div>  
-                        <Swiper                         
+            <Swiper                         
                             effect={'cards'}
                             grabCursor={true}
                             modules={[EffectCards, Pagination]}
@@ -31,6 +27,12 @@ export function NewContainer ({value}:{value:NewInterface}) {
                                     <Image className={styles.image} src={src} alt="peluche" fill sizes='500vh' />
                                 </SwiperSlide>)
                             }
-                        </Swiper>           
+                        </Swiper>       
+            <div className={styles.textContainer}>
+                <h3 className={styles.title}>{value.title}</h3>
+                <p className={styles.text}>{value.description}</p>
+            <h5 className={styles.more}>LEER MÁS</h5>
+            </div>  
+                            
         </div>)
     }

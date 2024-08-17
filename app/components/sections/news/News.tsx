@@ -4,7 +4,7 @@ import styles from './News.module.css'
 
 export function NewsSection () {
     return (
-        <section>
+        <div className={styles.container}>
             <h2>Últimas noticias</h2>
 
             <div className={styles.newsContainer}>
@@ -12,5 +12,5 @@ export function NewsSection () {
                 NEWS.map(value => <NewContainer key={value.title} value={value}/> )
             }
             </div>      
-        </section>)
+        </div>)
     }

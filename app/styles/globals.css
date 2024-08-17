@@ -1,6 +1,11 @@
 @import url("variables.css");
 
 @font-face {
+    font-family: LatoBlack;
+    src: url(./fonts/Lato/Lato-Black.ttf);
+}
+
+@font-face {
     font-family: LatoBold;
     src: url(./fonts/Lato/Lato-Bold.ttf);
 }
@@ -8,6 +13,10 @@
 @font-face {
     font-family: LatoRegular;
     src: url(./fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: LatoLight;
+    src: url(./fonts/Lato/Lato-Light.ttf);
 }
 
 

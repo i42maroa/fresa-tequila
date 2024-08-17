@@ -2,30 +2,44 @@
     display: flex;
     justify-content: space-around;
     padding: 0;
+    width: 100%;
 
 }
 .textContainer{
     display: flex;
     flex-direction: column;
     padding: 15px 30px;
+    width: 50%;
 }
 
 .title{
-    margin: 1.5rem 0;
+    font-family: LatoBlack;
+    margin: 20px 0;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 18px;
+}
+
+.text{
+    font-family: LatoLight;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.more{
+    font-family: LatoBlack;
+    font-size: 14px;
 }
 
 .swipperContainer{
-    height: 400px;
-    width: 500px;
+    width: 50%;
     padding: 0 25px;
     margin: 15px 0;
 }
 
 .carrousel{
     position: relative;
-    height: 400px;
+    height: 280px;
+    width: 610px;
 }
 
 @media (max-width: 1000px) {
